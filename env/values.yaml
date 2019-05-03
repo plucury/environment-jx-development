@@ -23,7 +23,7 @@ prow: {}
 global:
   WFGlobalEnv:
     ENV: dev
-    IS_DEBUG: 1
+    IS_DEBUG: "\"1\""
     QS3_TEST_SERVER: "\"True\""
   WFGlobalSecret:
     AWS_KEY: QUtJQUpFVlhGVTYzM01ITVNBWlE=
